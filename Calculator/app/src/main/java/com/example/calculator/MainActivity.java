@@ -98,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
     public void onOperator(View view){
         if (lastNumber && !isOperatorUsed(tvInput.getText().toString())){
             tvInput.append(((Button) view).getText());

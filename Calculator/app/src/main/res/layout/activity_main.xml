@@ -16,14 +16,12 @@
         android:hint="0"
         android:padding="10dp"
         android:gravity="center|bottom|right"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_marginTop="2dp"
         android:orientation="horizontal">
-
         <Button
             android:id="@+id/btn_seven"
             android:layout_width="0dp"
@@ -60,11 +58,6 @@
             android:onClick="onOperator"
             android:layout_margin="5dp"
             android:textSize="30sp"/>
-
-
-
-
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -111,10 +104,6 @@
             android:layout_margin="5dp"
             android:textSize="30sp"/>
 
-
-
-
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -159,11 +148,6 @@
             android:onClick="onOperator"
             android:layout_margin="5dp"
             android:textSize="30sp"/>
-
-
-
-
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -171,7 +155,6 @@
         android:layout_weight="1"
         android:layout_marginTop="2dp"
         android:orientation="horizontal">
-
         <Button
             android:id="@+id/btn_decimal"
             android:layout_width="0dp"
@@ -208,11 +191,6 @@
             android:onClick="onOperator"
             android:layout_margin="5dp"
             android:textSize="30sp"/>
-
-
-
-
-
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -220,8 +198,6 @@
         android:layout_weight="1"
         android:layout_marginTop="2dp"
         android:orientation="horizontal">
-
-
         <Button
             android:id="@+id/btn_equation"
             android:layout_width="0dp"
@@ -231,9 +207,5 @@
             android:onClick="onEqual"
             android:layout_margin="5dp"
             android:textSize="30sp"/>
-
-
     </LinearLayout>
-
-
 </LinearLayout>
